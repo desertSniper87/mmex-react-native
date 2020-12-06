@@ -2,15 +2,18 @@ import React from 'react';
 import { FlatList } from "react-native";
 import { ListItem } from "react-native-elements";
 
-const renderAccountInfo = ({item, index}) => {
-    return <ListItem key={index}
-                     title={item.name}
-                     subtitle={item.category}
-                     hideChevron={true}
-                     leftAvatar={{source: require('../images/bank.png')}} />
-}
 
 const DashboardList = (props) => {
+    const renderAccountInfo = ({item, index}) => {
+        return <ListItem key={index}
+                         title={item.name}
+                         subtitle={item.category}
+                         onPress={() => props.onPress(item.id)}
+                         hideChevron={true} />
+                         // leftAvatar={item.image} />
+    }
+
+
     return (
         <FlatList
             data={props.accountInfo}

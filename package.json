@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "eslint": "^7.15.0",
     "expo": "~39.0.0",
     "react": "~16.13.0",
     "react-dom": "~16.13.0",
@@ -11,6 +12,7 @@
   "devDependencies": {
     "@babel/core": "7.9.0"
   },
+
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
