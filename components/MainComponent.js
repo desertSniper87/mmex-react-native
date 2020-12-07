@@ -1,11 +1,40 @@
 import React from 'react';
 import { Component } from "react";
-import { ACCOUNTS } from "./accounts";
-import DashboardList from "./DashboardComponent";
 import { View } from "react-native";
-import TransactionList from "./TransactionsListComponent";
-import { TRANSACTIONS } from "./transactions";
+import { createStackNavigator  } from 'react-navigation-stack';
+import { createAppContainer } from 'react-navigation';
+import { Platform } from 'react-native';
 
+import Dashboard from "./DashboardComponent";
+import Transactions from "./TransactionsListComponent";
+
+import { ACCOUNTS } from "../shared/accounts";
+import { TRANSACTIONS } from "../shared/transactions";
+
+
+
+
+
+const MenuNavigator = createStackNavigator({
+    Dashboard: { screen: Dashboard },
+    Transactions: { screen: Transactions }
+    }, {
+    initialRouteName: 'Dashboard',
+    navigationOptions: {
+        headerStyle: {
+            backgroundColor: '#512DA8'
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+            color: '#fff'
+        }
+    }
+})
+
+const Main = createAppContainer(MenuNavigator);
+export default Main;
+
+/*
 class Main extends Component {
     constructor(props) {
         super(props);
@@ -24,12 +53,12 @@ class Main extends Component {
     render() {
         return (
             <View style={{flex: 1}}>
-                <DashboardList accountInfo={this.state.accounts}
-                    onPress={(accountID) => this.onAccountSelect(accountID)} />
-                <TransactionList transactions={this.state.transactions.filter((transaction) => transaction.accountID === this.state.selectedAccountID)} />
+                <View style={{ flex: 1, paddingTop: 5 }}>
+                    <MenuNavigator />
+                </View>
             </View>
         );
     }
 }
+*/
 
-export default Main;
