@@ -5,15 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eac32bb0-db6b-4d81-a518-d1671285539c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/accountSummary/AccountSummary.slice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/accountSummary/AccountSummary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/database/Database.const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/database/Database.models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/database/Database.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/database/Database.slice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/database/Database.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/database/raw/query_alldata.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/database/raw/tables_v1.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-native.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1lbGZ9McIssLG7xmP9XVHsydARI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,14 +52,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/torsho/mmex-react-native/components/database",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/torsho/.nvm/versions/node/v16.14.2/bin/node",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "ts.external.directory.path": "/home/torsho/mmex-react-native/node_modules/typescript/lib"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/database" />
+      <recent name="$PROJECT_DIR$/components/accountSummary" />
+      <recent name="$PROJECT_DIR$/db/raw" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/database" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -57,11 +97,28 @@
       <workItem from="1607858554618" duration="4386000" />
       <workItem from="1607921927139" duration="445000" />
       <workItem from="1657292890902" duration="1547000" />
-      <workItem from="1657294885877" duration="438000" />
+      <workItem from="1657294885877" duration="3366000" />
+      <workItem from="1657374659978" duration="10640000" />
+      <workItem from="1657455304279" duration="7806000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
